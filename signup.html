@@ -6,21 +6,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css" />
 
-  <title>Sujeitogram - Sua rede social</title>
+  <title>Sujeitogram - Faça seu cadastro</title>
 </head>
 <body>
   
   <div id="wrapper">
     
-    <div id="container">
+    <div id="container-signup">
 
-      <div class="column left">
-
-        <div class="main"></div>
-        
-      </div>
-
-      <div class="column right">
+      <div class="column">
 
         <div class="login-panel">
 
@@ -28,8 +22,22 @@
             <img class="logo-img" src="assets/logo.png" alt="Logo do sujeitogram">
           </div><!--LOGO-->
 
+          <div class="message">
+            <span>Cadastre-se para ver fotos e vídeos dos seus amigos.</span>
+          </div><!--MESSAGE-->
+
+          <button class="cta-button">Entrar com Facebook</button>
+
+          <div class="divisor-container">
+            <div class="line"></div>
+            <div class="divisor-tag">ou</div>
+            <div class="line"></div>
+          </div>
+
           <form>
-            <input placeholder="Telefone, usuario ou email" type="text" name="username"/>
+            <input placeholder="Número de celular ou e-mail" type="text" name="email"/>
+            <input placeholder="Nome completo" type="text" name="name"/>
+            <input placeholder="Username" type="text" name="username"/>
             <input placeholder="Senha" type="password" name="password">
 
             <input type="submit" value="Entrar">
@@ -38,7 +46,7 @@
         </div><!--LOGIN PANEL-->
 
         <div class="infobox">
-          <p>Não possui uma conta? <a href="signup.html">Cadastre-se</a></p>
+          <p>Tem uma conta? <a href="index.html">Conecte-se</a></p>
         </div><!--INFO BOX-->
 
         <div class="get-app-panel">
@@ -53,7 +61,7 @@
           </div>
         </div>
 
-      </div><!--COLUMN RIGHT-->
+      </div><!--COLUMN-->
 
     </div><!--CONTAINER-->
 
