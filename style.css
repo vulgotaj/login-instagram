@@ -10,7 +10,10 @@ a{
 }
 
 body{
-  background: #FAFAFA;
+  --bg: #FAFAFA;
+  --white: #FFF;
+  
+  background: var(--bg);
   height: 100%;
   width: 100%;
   margin:0;
@@ -51,7 +54,7 @@ body{
 }
 
 .login-panel{
-  background-color: #FFF;
+  background-color: var(--white);
   border: 1px solid #e6e6e6;
   text-align: center;
   padding: 20px 0;
@@ -69,7 +72,7 @@ form{
 }
 
 input[type="password"], input[type="text"]{
-  background-color: #FFF;
+  background-color: var(--white);
   border: 1px solid rgb(236, 234, 234);
   height: 40px;
   border-radius: 4px;
@@ -96,14 +99,14 @@ input[type="submit"]{
   border: 0;
   background-color: #3c96ed;
   border-radius: 4px;
-  color: #FFF;
+  color: var(--white);
   font-size: 16px;
   font-weight: bold;
   margin-bottom: 10px;
 }
 
 .infobox{
-  background-color: #FFF;
+  background-color: var(--white);
   height: 60px;
   border: 1px solid rgb(236, 234, 234);
   margin: 10px auto 0;
@@ -185,7 +188,7 @@ footer a{
   margin: 10px 0;
   height: 35px;
   background-color: #0095f6;
-  color: #FFF;
+  color: var(--white);
   border: 0;
   border-radius: 4px;
   font-size: 15px;
